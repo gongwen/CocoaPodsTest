@@ -1,6 +1,6 @@
 PODS:
-  - CocoaPodsTestLibrary/ModuleA (1.0.0-alpha.3)
-  - CocoaPodsTestLibrary/ModuleCore (1.0.0-alpha.3)
+  - CocoaPodsTestLibrary/ModuleA (1.0.0-alpha.4)
+  - CocoaPodsTestLibrary/ModuleCore (1.0.0-alpha.4)
 
 DEPENDENCIES:
   - CocoaPodsTestLibrary/ModuleA (from `../`)
@@ -11,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CocoaPodsTestLibrary: f1ba7bdb92d418830565a8c8bde8a25ca8499990
+  CocoaPodsTestLibrary: 4a191cd453498fe1f194e20bb8a5dd324e5bc5ee
 
-PODFILE CHECKSUM: 3d15aa5865c81c8f3b3d563b744ba1e71cd667f3
+PODFILE CHECKSUM: 83180484b1ca6e1bb6104c307012e896fbf859c5
 
 COCOAPODS: 1.14.2

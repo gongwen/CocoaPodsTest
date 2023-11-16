@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   end
 end
 
-   # ss.dependency 'QMUIKit/QMUIWeakObjectContainer'
-
 #创建podspec：pod spec create UMPCore
 #校验podspec：pod spec lint CocoaPodsTestLibrary.podspec --allow-warnings
+# pod deintegrate && pod install
+# pod install --repo-update

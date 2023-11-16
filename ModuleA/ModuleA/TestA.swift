@@ -9,7 +9,7 @@ import Foundation
 
 public enum TestA {
     public static func run() {
-        print("TestA => run")
+        print("TestA => run111")
         TestCore.run()
     }
 }
