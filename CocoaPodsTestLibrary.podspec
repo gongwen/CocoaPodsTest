@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CocoaPodsTestLibrary'
-  s.version          = '1.0.0-alpha.2'
+  s.version          = '1.0.0-alpha.3'
   s.swift_version    = '5.0'
   s.summary          = 'sumary'
   s.description      = 'description'
