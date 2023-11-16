@@ -1,0 +1,6 @@
+framework module CocoaPodsTestLibrary {
+  umbrella header "CocoaPodsTestLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

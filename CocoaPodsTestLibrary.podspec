@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CocoaPodsTestLibrary'
-  s.version          = '1.0.0-alpha.3'
+  s.version          = '1.0.0-alpha.4'
   s.swift_version    = '5.0'
   s.summary          = 'sumary'
   s.description      = 'description'
@@ -15,15 +15,13 @@ Pod::Spec.new do |s|
   end
   s.subspec 'ModuleA' do |ss|
     ss.source_files = 'ModuleA/**/*.{h,hpp,c,cpp,m,mm,swift}'
-    #ss.dependency = 'ModuleCore'
   end
   s.subspec 'ModuleB' do |ss|
     ss.source_files = 'ModuleB/**/*.{h,hpp,c,cpp,m,mm,swift}'
-    #ss.dependency = 'ModuleCore'
   end
-
-
 end
 
+   # ss.dependency 'QMUIKit/QMUIWeakObjectContainer'
+
 #创建podspec：pod spec create UMPCore
-#校验podspec：pod spec lint UMPCore.podspec --allow-warnings
+#校验podspec：pod spec lint CocoaPodsTestLibrary.podspec --allow-warnings

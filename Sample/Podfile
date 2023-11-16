@@ -1,5 +1,4 @@
-#source 'https://cdn.cocoapods.org'
-source 'http://git.amberweather.com/game_libs/cocoapodsspecs.git'
+source 'https://cdn.cocoapods.org'
 
 
 workspace '../CocoaPodsTest'
@@ -11,6 +10,12 @@ target 'Sample' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'CocoaPodsTestLibrary',:git => 'https://github.com/gongwen/CocoaPodsTest'
+#  pod 'CocoaPodsTestLibrary', :git => 'https://github.com/gongwen/CocoaPodsTest'
+#  pod 'CocoaPodsTestLibrary/ModuleCore', :git => 'https://github.com/gongwen/CocoaPodsTest'
+#  pod 'CocoaPodsTestLibrary', :path => '../'
+pod 'CocoaPodsTestLibrary/ModuleCore', :path => '../'
+pod 'CocoaPodsTestLibrary/ModuleA', :path => '../'
 
 end
+
+#pod deintegrate && pod install

@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		DA4161AC2B064F7300E3C0F9 /* ModuleA.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4161AB2B064F7300E3C0F9 /* ModuleA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA4161FB2B065A2A00E3C0F9 /* TestA.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4161FA2B065A2A00E3C0F9 /* TestA.swift */; };
+		DA4162062B06637000E3C0F9 /* ModuleA.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DA4162052B06637000E3C0F9 /* ModuleA.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA4161A82B064F7300E3C0F9 /* ModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4161AB2B064F7300E3C0F9 /* ModuleA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleA.h; sourceTree = "<group>"; };
 		DA4161FA2B065A2A00E3C0F9 /* TestA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestA.swift; sourceTree = "<group>"; };
+		DA4162052B06637000E3C0F9 /* ModuleA.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ModuleA.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 		DA41619E2B064F7300E3C0F9 = {
 			isa = PBXGroup;
 			children = (
+				DA4162052B06637000E3C0F9 /* ModuleA.podspec */,
 				DA4161AA2B064F7300E3C0F9 /* ModuleA */,
 				DA4161A92B064F7300E3C0F9 /* Products */,
 			);
@@ -123,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA4162062B06637000E3C0F9 /* ModuleA.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,15 +8,6 @@
       location = "group:Sample/Sample.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ModuleCore/ModuleCore.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:ModuleB/ModuleB.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:ModuleA/ModuleA.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Sample/Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

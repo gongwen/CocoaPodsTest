@@ -6,9 +6,13 @@
 //
 
 import SwiftUI
+import CocoaPodsTestLibrary
 
 @main
 struct SampleApp: App {
+    init() {
+        TestA.run()
+    }
     var body: some Scene {
         WindowGroup {
             ContentView()

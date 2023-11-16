@@ -10,5 +10,6 @@ import Foundation
 public enum TestB {
     public static func run() {
         print("TestB => run")
+        TestCore.run()
     }
 }
