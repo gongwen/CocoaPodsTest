@@ -7,7 +7,7 @@
 
 import Foundation
 
-public enum TestA {
+internal enum TestA {
     public static func run() {
         print("TestA => run111")
         TestCore.run()

@@ -25,3 +25,8 @@ end
 #校验podspec：pod spec lint CocoaPodsTestLibrary.podspec --allow-warnings
 # pod deintegrate && pod install
 # pod install --repo-update
+
+
+
+# 潜在问题
+# 1、子模块间可以相互调用
