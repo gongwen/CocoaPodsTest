@@ -4,6 +4,40 @@
    <FileRef
       location = "group:CocoaPodsTestLibrary.podspec">
    </FileRef>
+   <Group
+      location = "group:ModuleB"
+      name = "ModuleB">
+      <Group
+         location = "group:ModuleB"
+         name = "ModuleB">
+         <FileRef
+            location = "group:TestB.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ModuleB.h">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:ModuleB.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:ModuleA"
+      name = "ModuleA">
+      <FileRef
+         location = "group:ModuleA.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:ModuleA"
+         name = "ModuleA">
+         <FileRef
+            location = "group:TestA.swift">
+         </FileRef>
+         <FileRef
+            location = "group:ModuleA.h">
+         </FileRef>
+      </Group>
+   </Group>
    <FileRef
       location = "group:Sample/Sample.xcodeproj">
    </FileRef>

@@ -6,6 +6,7 @@
 //
 
 import Foundation
+//import AppLovinSDK
 
 public enum TestB {
     public static func run() {
