@@ -6,11 +6,13 @@
 //
 
 import Foundation
-//import AppLovinSDK
+import CocoaPodsTestLibrary
+import AppLovinSDK
 
 public enum TestB {
     public static func run() {
         print("TestB => run")
         TestCore.run()
+//        Applovin
     }
 }

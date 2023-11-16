@@ -15,6 +15,7 @@ Pod::Spec.new do |s|
   end
   s.subspec 'ModuleA' do |ss|
     ss.source_files = 'ModuleA/**/*.{h,hpp,c,cpp,m,mm,swift}'
+    ss.dependency 'CocoaPodsTestLibrary/ModuleCore'
     ss.dependency 'AppLovinSDK', '11.11.4'
     ss.dependency 'AppLovinMediationGoogleAdapter', '10.13.0.0'
     ss.dependency 'AppLovinMediationGoogleAdManagerAdapter', '10.13.0.0'
@@ -36,6 +37,7 @@ Pod::Spec.new do |s|
   end
   s.subspec 'ModuleB' do |ss|
     ss.source_files = 'ModuleB/**/*.{h,hpp,c,cpp,m,mm,swift}'
+    ss.dependency 'CocoaPodsTestLibrary/ModuleCore'
   end
 end
 
@@ -47,5 +49,4 @@ end
 
 
 # 潜在问题
-# 1、子模块间源码可以相互调用
-# 2、子模块间间接依赖彼此不可见
+# 1、子模块间源码及间接依赖可以相互调用

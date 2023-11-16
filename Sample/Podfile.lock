@@ -90,7 +90,10 @@ PODS:
     - AppLovinMediationVungleAdapter (= 7.1.0.2)
     - AppLovinPubMaticAdapter (= 1.1.0)
     - AppLovinSDK (= 11.11.4)
+    - CocoaPodsTestLibrary/ModuleCore
     - OpenWrapSDK (= 3.2.0)
+  - CocoaPodsTestLibrary/ModuleB (1.0.0-alpha.4):
+    - CocoaPodsTestLibrary/ModuleCore
   - CocoaPodsTestLibrary/ModuleCore (1.0.0-alpha.4)
   - FiveAd (2.6.20230609)
   - Fyber_Marketplace_SDK (8.2.4)
@@ -206,6 +209,7 @@ PODS:
 
 DEPENDENCIES:
   - CocoaPodsTestLibrary/ModuleA (from `../`)
+  - CocoaPodsTestLibrary/ModuleB (from `../`)
   - CocoaPodsTestLibrary/ModuleCore (from `../`)
 
 SPEC REPOS:
@@ -265,7 +269,7 @@ SPEC CHECKSUMS:
   AppLovinPubMaticAdapter: 226f6f913ae140856d60affdc7cbad832a6dd4af
   AppLovinSDK: 5c667a790725d9529c01c3f3acf12ab195865fbb
   BURelyFoundation_Global: 1b8107d3c136a16536783861ceab26645930e8b7
-  CocoaPodsTestLibrary: a0658f43791445f35a4ef80bc090ee695955735e
+  CocoaPodsTestLibrary: a09679555aedb01adb703837b4a5d6950e63af29
   FiveAd: c4f9e70545cbabba51307b5529e8cfcf3e8cbb03
   Fyber_Marketplace_SDK: c51474f63c016c9ff7eb32e3542528d08d456bc5
   Google-Mobile-Ads-SDK: 517003a1a2430005da3e85df4d061cd7de107a5a
@@ -282,6 +286,6 @@ SPEC CHECKSUMS:
   UnityAds: 6fa6b68b831706c9761dcd97555dd60b03e3254b
   VungleAds: e13f0ea8facb05d5511e31c5abcced79a82409e7
 
-PODFILE CHECKSUM: bc43a76ee9c6ea98073842ff63a43dabd0a20a2c
+PODFILE CHECKSUM: 4d04285fa336ca0c1321d9e3594418d0b7ad2621
 
 COCOAPODS: 1.14.2

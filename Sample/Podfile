@@ -16,10 +16,12 @@ target 'Sample' do
 #  pod 'CocoaPodsTestLibrary', :git => 'git@github.com:gongwen/CocoaPodsTest.git', :tag => '1.0.0-alpha.4'
 #pod 'CocoaPodsTestLibrary/ModuleCore', :git => 'git@github.com:gongwen/CocoaPodsTest.git', :tag => '1.0.0-alpha.4'
 #pod 'CocoaPodsTestLibrary/ModuleA', :git => 'git@github.com:gongwen/CocoaPodsTest.git', :tag => '1.0.0-alpha.4'
+#pod 'CocoaPodsTestLibrary', :subspecs => ['ModuleA', 'ModuleB'], :git => 'git@github.com:gongwen/CocoaPodsTest.git', :tag => '1.0.0-alpha.4'
 
 # 调试模式
 #  pod 'CocoaPodsTestLibrary', :path => '../'
 pod 'CocoaPodsTestLibrary/ModuleCore', :path => '../'
 pod 'CocoaPodsTestLibrary/ModuleA', :path => '../'
+pod 'CocoaPodsTestLibrary/ModuleB', :path => '../'
 
 end
