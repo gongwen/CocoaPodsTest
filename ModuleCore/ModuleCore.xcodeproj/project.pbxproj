@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA16166E2B06FAD300C604F6 /* TestInteropWithC.h in Headers */ = {isa = PBXBuildFile; fileRef = DA16166D2B06FA9700C604F6 /* TestInteropWithC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA4161D42B064FAF00E3C0F9 /* ModuleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = DA4161D32B064FAF00E3C0F9 /* ModuleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA4161F72B0659D400E3C0F9 /* TestCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4161F62B0659D400E3C0F9 /* TestCore.swift */; };
-		DA4162042B06635600E3C0F9 /* ModuleCore.podspec in Resources */ = {isa = PBXBuildFile; fileRef = DA4162032B06635600E3C0F9 /* ModuleCore.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA16166D2B06FA9700C604F6 /* TestInteropWithC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestInteropWithC.h; sourceTree = "<group>"; };
 		DA4161D02B064FAF00E3C0F9 /* ModuleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4161D32B064FAF00E3C0F9 /* ModuleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModuleCore.h; sourceTree = "<group>"; };
 		DA4161F62B0659D400E3C0F9 /* TestCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCore.swift; sourceTree = "<group>"; };
-		DA4162032B06635600E3C0F9 /* ModuleCore.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ModuleCore.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,10 +30,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA16166A2B06F93100C604F6 /* InteropWithCpp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InteropWithCpp;
+			sourceTree = "<group>";
+		};
 		DA4161C62B064FAF00E3C0F9 = {
 			isa = PBXGroup;
 			children = (
-				DA4162032B06635600E3C0F9 /* ModuleCore.podspec */,
 				DA4161D22B064FAF00E3C0F9 /* ModuleCore */,
 				DA4161D12B064FAF00E3C0F9 /* Products */,
 			);
@@ -50,6 +56,8 @@
 		DA4161D22B064FAF00E3C0F9 /* ModuleCore */ = {
 			isa = PBXGroup;
 			children = (
+				DA16166D2B06FA9700C604F6 /* TestInteropWithC.h */,
+				DA16166A2B06F93100C604F6 /* InteropWithCpp */,
 				DA4161D32B064FAF00E3C0F9 /* ModuleCore.h */,
 				DA4161F62B0659D400E3C0F9 /* TestCore.swift */,
 			);
@@ -64,6 +72,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA4161D42B064FAF00E3C0F9 /* ModuleCore.h in Headers */,
+				DA16166E2B06FAD300C604F6 /* TestInteropWithC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,7 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA4162042B06635600E3C0F9 /* ModuleCore.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +292,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +326,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

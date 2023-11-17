@@ -5,6 +5,23 @@
       location = "group:CocoaPodsTestLibrary.podspec">
    </FileRef>
    <Group
+      location = "group:ModuleCore"
+      name = "ModuleCore">
+      <FileRef
+         location = "group:ModuleCore.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:ModuleCore"
+         name = "ModuleCore">
+         <FileRef
+            location = "group:ModuleCore.h">
+         </FileRef>
+         <FileRef
+            location = "group:TestCore.swift">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
       location = "group:ModuleB"
       name = "ModuleB">
       <Group

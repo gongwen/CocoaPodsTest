@@ -7,14 +7,12 @@
 
 import AppLovinSDK
 import Foundation
+import CocoaPodsTestLibrary
 
 public enum TestA {
     public static func run() {
-        print("TestA => run111")
+        print("TestA => run")
         TestCore.run()
-
-//
-//        let instance = ALSdk.shared()!
-//        let desc = instance.description
+        TestB.run()
     }
 }

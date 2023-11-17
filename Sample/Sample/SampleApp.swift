@@ -7,6 +7,7 @@
 
 import SwiftUI
 import CocoaPodsTestLibrary
+import CocoaPodsTestLibrary
 
 @main
 struct SampleApp: App {
